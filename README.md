@@ -1,2 +1,3 @@
-# goit-markup-hw-01
-Basic HTML structure
+# goit-markup-hw-02
+
+Basic HTML structure + CSS
