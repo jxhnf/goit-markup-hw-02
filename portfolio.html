@@ -4,59 +4,64 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portfolio</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<!-- Header -->
 		<header>
 			<!-- Logo and navbar -->
 			<nav>
-				<a href="#"><span>WEB</span>STUDIO</a>
-				<ul>
+				<a href="#" class="logo">WEB<span class="header-logo">STUDIO</span></a>
+				<ul class="menu-nav">
 					<li>
-						<a href="#">Studio</a>
+						<a href="index.html" class="menu-link">Studio</a>
 					</li>
 					<li>
-						<a href="#">Portfolio</a>
+						<a href="#" class="menu-link">Portfolio</a>
 					</li>
 					<li>
-						<a href="#">Contacts</a>
+						<a href="#" class="menu-link">Contacts</a>
 					</li>
 				</ul>
 			</nav>
 
 			<!-- Contacts -->
 			<address>
-				<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-				<a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+				<a href="mailto:info@devstudio.com" class="contact"
+					>info@devstudio.com</a
+				>
+				<a href="tel:+11(000)111-11-11" class="contact">+11 (000) 111-11-11</a>
 			</address>
 		</header>
+
 		<main>
 			<!--Buttons -->
-			<section>
+			<section class="button-section">
 				<h2></h2>
-				<ul>
-					<!-- Filter Btn Active -->
-					<li><button type="button">All</button></li>
-					<!-- Filter Btn -->
-					<li><button type="button">Web Site</button></li>
-					<li><button type="button">App</button></li>
-					<li><button type="button">Design</button></li>
-					<li><button type="button">Marketing</button></li>
+				<ul class="filter-btn-list">
+					<li><button class="btn" type="button">All</button></li>
+					<li><button class="btn" type="button">Web Site</button></li>
+					<li><button class="btn" type="button">App</button></li>
+					<li><button class="btn" type="button">Design</button></li>
+					<li><button class="btn" type="button">Marketing</button></li>
 				</ul>
 			</section>
 
 			<!-- Row 1 -->
 			<section>
 				<h2></h2>
-				<ul>
+				<ul class="first-row">
 					<li>
 						<img
 							src="images/portfolio/row1/r1-1.jpg"
 							alt="banking app interface"
 							width="360"
 						/>
-						<h3>Banking App Interface Concept</h3>
-						<p>App</p>
+						<h3 class="project">Banking App Interface Concept</h3>
+						<p class="description">App</p>
 					</li>
 					<li>
 						<img
@@ -64,8 +69,8 @@
 							alt="cashless payment using barcode"
 							width="360"
 						/>
-						<h3>Cashless Payment</h3>
-						<p>Marketing</p>
+						<h3 class="project">Cashless Payment</h3>
+						<p class="description">Marketing</p>
 					</li>
 					<li>
 						<img
@@ -73,8 +78,8 @@
 							alt="mobile phone and laptop image"
 							width="360"
 						/>
-						<h3>Meditation App</h3>
-						<p>App</p>
+						<h3 class="project">Meditation App</h3>
+						<p class="description">App</p>
 					</li>
 				</ul>
 			</section>
@@ -82,15 +87,15 @@
 			<!-- Row 2 -->
 			<section>
 				<h2></h2>
-				<ul>
+				<ul class="second-row">
 					<li>
 						<img
 							src="images/portfolio/row2/r2-1.jpg"
 							alt="man holding the steering wheel of a car"
 							width="360"
 						/>
-						<h3>Taxi Service</h3>
-						<p>Marketing</p>
+						<h3 class="project">Taxi Service</h3>
+						<p class="description">Marketing</p>
 					</li>
 					<li>
 						<img
@@ -98,8 +103,8 @@
 							alt="screen of a mobile phone"
 							width="360"
 						/>
-						<h3>Screen Illustrations</h3>
-						<p>Design</p>
+						<h3 class="project">Screen Illustrations</h3>
+						<p class="description">Design</p>
 					</li>
 					<li>
 						<img
@@ -107,8 +112,8 @@
 							alt="a girl using mobile phone"
 							width="360"
 						/>
-						<h3>Online Courses</h3>
-						<p>Marketing</p>
+						<h3 class="project">Online Courses</h3>
+						<p class="description">Marketing</p>
 					</li>
 				</ul>
 			</section>
@@ -116,15 +121,15 @@
 			<!-- Row 3 -->
 			<section>
 				<h2></h2>
-				<ul>
+				<ul class="third-row">
 					<li>
 						<img
 							src="images/portfolio/row3/r3-1.jpg"
 							alt="instagram stories concept"
 							width="360"
 						/>
-						<h3>Instagram Stories Concept</h3>
-						<p>Design</p>
+						<h3 class="project">Instagram Stories Concept</h3>
+						<p class="description">Design</p>
 					</li>
 					<li>
 						<img
@@ -132,8 +137,8 @@
 							alt="fruits and vegetables inside a net bag"
 							width="360"
 						/>
-						<h3>Organic Food</h3>
-						<p>Web Site</p>
+						<h3 class="project">Organic Food</h3>
+						<p class="description">Web Site</p>
 					</li>
 					<li>
 						<img
@@ -141,8 +146,8 @@
 							alt="barista making a latte art"
 							width="360"
 						/>
-						<h3>Fresh Coffee</h3>
-						<p>Web Site</p>
+						<h3 class="project">Fresh Coffee</h3>
+						<p class="description">Web Site</p>
 					</li>
 				</ul>
 			</section>
@@ -150,8 +155,8 @@
 
 		<!-- Footer -->
 		<footer>
-			<a href="#"><span>WEB</span>STUDIO</a>
-			<p>
+			<a href="#" class="logo">WEB<span class="footer-logo">STUDIO</span></a>
+			<p class="tagline">
 				Increase the flow of customers and <br />
 				sales for your business with digital <br />
 				marketing & growth solutions.

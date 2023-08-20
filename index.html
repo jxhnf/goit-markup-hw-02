@@ -4,71 +4,78 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Studio</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<header>
 			<!-- Logo and navbar -->
 			<nav>
-				<a href="#"><span>WEB</span>STUDIO</a>
-				<ul>
+				<a href="#" class="logo">WEB<span class="header-logo">STUDIO</span></a>
+				<ul class="menu-nav">
 					<li>
-						<a href="#">Studio</a>
+						<a href="#" class="menu-link">Studio</a>
 					</li>
 					<li>
-						<a href="#">Portfolio</a>
+						<a href="portfolio.html" class="menu-link">Portfolio</a>
 					</li>
 					<li>
-						<a href="#">Contacts</a>
+						<a href="#" class="menu-link">Contacts</a>
 					</li>
 				</ul>
 			</nav>
 
 			<!-- Contacts -->
 			<address>
-				<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-				<a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+				<a href="mailto:info@devstudio.com" class="contact"
+					>info@devstudio.com</a
+				>
+				<a href="tel:+11(000)111-11-11" class="contact">+11 (000) 111-11-11</a>
 			</address>
 		</header>
 
-		<!-- Hero image -->
-
 		<main>
 			<!-- Hero Section -->
-			<section>
-				<h1>Effective Solutions <br />for Your Business</h1>
-				<button type="button">Order Service</button>
+			<section class="hero-section">
+				<h1 class="hero-heading">
+					Effective Solutions <br />for Your Business
+				</h1>
+				<button class="hero-button" type="button">Order Service</button>
 			</section>
 
 			<!-- Section 1 -->
 			<section>
 				<h2 hidden>Feature</h2>
-				<ul>
-					<li>
-						<h3>Strategy</h3>
+				<ul class="features-list">
+					<li class="feature">
+						<h3 class="features-subheading">Strategy</h3>
 						<p>
 							Our goal is to identify the business problem to walk away with the
 							perfect and creative solution.
 						</p>
 					</li>
 
-					<li>
-						<h3>Punctuality</h3>
+					<li class="feature">
+						<h3 class="features-subheading">Punctuality</h3>
 						<p>
 							Bring the key message to the brand's audience for the best price
 							within the shortest possible time.
 						</p>
 					</li>
 
-					<li>
-						<h3>Diligence</h3>
+					<li class="feature">
+						<h3 class="features-subheading">Diligence</h3>
 						<p>
 							Research and confirm brands that present the strongest digital
 							growth opportunities and minimize risk.
 						</p>
 					</li>
 
-					<li>
-						<h3>Technologies</h3>
+					<li class="feature">
+						<h3 class="features-subheading">Technologies</h3>
 						<p>
 							Design practice focused on digital experiences. We bring forth a
 							deep passion for problem-solving.
@@ -79,8 +86,8 @@
 
 			<!-- Section 2 -->
 			<section>
-				<h2>What are we doing</h2>
-				<ul>
+				<h2 class="section-heading">What are we doing</h2>
+				<ul class="services-list">
 					<li>
 						<img
 							src="images/section-2-img/img1.jpg"
@@ -107,43 +114,43 @@
 
 			<!-- Section 3 -->
 			<section>
-				<h2>Our Team</h2>
-				<ul>
-					<li>
+				<h2 class="section-heading">Our Team</h2>
+				<ul class="team-card-list">
+					<li class="team-card">
 						<img
 							src="images/section-3-img/profilepic1.jpg"
 							alt="profile picture of man in blue attire"
 							width="264"
 						/>
-						<h3>Mark Guerrero</h3>
-						<p>Product Designer</p>
+						<h3 class="team-member">Mark Guerrero</h3>
+						<p class="job-title">Product Designer</p>
 					</li>
-					<li>
+					<li class="team-card">
 						<img
 							src="images/section-3-img/profilepic2.jpg"
 							alt="profile picture of man smiling"
 							width="264"
 						/>
-						<h3>Tom Ford</h3>
-						<p>Frontend Developer</p>
+						<h3 class="team-member">Tom Ford</h3>
+						<p class="job-title">Frontend Developer</p>
 					</li>
-					<li>
+					<li class="team-card">
 						<img
 							src="images/section-3-img/profilepic3.jpg"
 							alt="profile picture of a girl in pink dress"
 							width="264"
 						/>
-						<h3>Camila Garcia</h3>
-						<p>Marketing</p>
+						<h3 class="team-member">Camila Garcia</h3>
+						<p class="job-title">Marketing</p>
 					</li>
-					<li>
+					<li class="team-card">
 						<img
 							src="images/section-3-img/profilepic4.jpg"
 							alt="profile picture of a man in grey shirt"
 							width="264"
 						/>
-						<h3>Daniel Wilson</h3>
-						<p>UI Designer</p>
+						<h3 class="team-member">Daniel Wilson</h3>
+						<p class="job-title">UI Designer</p>
 					</li>
 				</ul>
 			</section>
@@ -151,8 +158,8 @@
 
 		<!-- Footer -->
 		<footer>
-			<a href="#"><span>WEB</span>STUDIO</a>
-			<p>
+			<a href="#" class="logo">WEB<span class="footer-logo">STUDIO</span></a>
+			<p class="tagline">
 				Increase the flow of customers and <br />
 				sales for your business with digital <br />
 				marketing & growth solutions.
