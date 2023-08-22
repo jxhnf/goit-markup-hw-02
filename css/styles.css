@@ -11,12 +11,18 @@
 body {
 	font-family: "Roboto", sans-serif;
 	color: var(--color-slate);
+	background: var(--color-white);
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.5; /* 150% */
+	letter-spacing: 0.32px;
 }
 
-header {
+.main-header {
 	border-bottom: 1px solid var(--color-cornflower);
-	background-color: var(--color-white);
 }
+
 .logo {
 	color: var(--color-iris);
 	font-family: Raleway;
@@ -25,17 +31,14 @@ header {
 	line-height: 1.17; /* 116.667% */
 	letter-spacing: 0.54px;
 	text-transform: uppercase;
-}
-
-.header-logo {
-	color: var(--color-navyblue);
-}
-
-a:link {
 	text-decoration: none;
 }
 
-.menu-nav a:hover,
+.header-studio {
+	color: var(--color-navyblue);
+}
+
+.menu-link:hover,
 .contact:hover {
 	color: var(--color-ocean);
 }
@@ -51,26 +54,22 @@ a:link {
 	background-color: var(--color-ocean);
 }
 
-.menu-nav a:focus,
+.menu-link:focus,
 .contact:focus {
 	color: var(--color-ocean);
 }
 
-.menu-nav {
-	list-style: none;
-}
+
 .menu-link {
 	color: var(--color-navyblue);
-	list-style: none;
-	font-size: 16px;
+	text-decoration: none;
 	font-weight: 500;
-	line-height: 1.5; /* 150% */
-	letter-spacing: 0.32px;
 }
 
 .contact {
 	font-style: normal;
 	color: var(--color-slate);
+	text-decoration: none;
 }
 
 .hero-section {
@@ -87,7 +86,6 @@ a:link {
 
 .hero-button {
 	color: var(--color-white);
-	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.5; /* 150% */
@@ -97,14 +95,13 @@ a:link {
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.features-list {
+.menu-nav,
+.features-list,
+.services-list,
+.team-card-list,
+.filter-btn-list,
+.portfolio-list {
 	list-style: none;
-}
-
-.feature {
-	font-size: 16px;
-	line-height: 1.5; /* 150% */
-	letter-spacing: 0.32px;
 }
 
 .features-subheading {
@@ -125,14 +122,6 @@ a:link {
 	text-transform: capitalize;
 }
 
-.services-list {
-	list-style: none;
-}
-
-.team-card-list {
-	list-style: none;
-}
-
 .team-member {
 	color: var(--color-navyblue);
 	text-align: center;
@@ -143,26 +132,15 @@ a:link {
 }
 
 .job-title {
-	color: var(--color-slate);
-	text-align: center;
-	font-size: 16px;
-	line-height: 1.5; /* 150% */
-	letter-spacing: 0.32px;
-}
-
-.filter-btn-list,
-.first-row,
-.second-row,
-.third-row {
-	list-style: none;
-}
+		text-align: center;
+	}
 
 .btn {
 	color: var(--color-iris);
 	text-align: center;
 	font-size: 16px;
 	font-weight: 500;
-	line-height: 1.5; /* 150% */
+	line-height: 1.5;
 	letter-spacing: 0.64px;
 	border-radius: 4px;
 	border: 1px solid var(--color-cornflower);
@@ -188,24 +166,14 @@ a:link {
 	letter-spacing: 0.4px;
 }
 
-.description {
-	color: var(--color-slate);
-	font-size: 16px;
-	line-height: 1.5; /* 150% */
-	letter-spacing: 0.32px;
-}
-
-.footer-logo {
+.footer-studio {
 	color: var(--color-cloud);
 }
 
 .tagline {
 	color: var(--color-cloud);
-	font-size: 16px;
-	line-height: 1.5; /* 150% */
-	letter-spacing: 0.32px;
 }
 
-footer {
+.footer {
 	background: var(--color-navyblue);
 }
