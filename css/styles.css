@@ -59,7 +59,6 @@ body {
 	color: var(--color-ocean);
 }
 
-
 .menu-link {
 	color: var(--color-navyblue);
 	text-decoration: none;
@@ -132,8 +131,8 @@ body {
 }
 
 .job-title {
-		text-align: center;
-	}
+	text-align: center;
+}
 
 .btn {
 	color: var(--color-iris);
@@ -174,6 +173,6 @@ body {
 	color: var(--color-cloud);
 }
 
-.footer {
+.logo-tagline-footer {
 	background: var(--color-navyblue);
 }
